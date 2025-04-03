@@ -56,7 +56,7 @@ Tijdens het gesprek met Roger heb ik deze aantekeningen gemaakt:
 - Uiteindelijk eigen woorden van maken
 - Wat denk je nou zelf en wat houd je aan
 
-*** Website:
+### Website:
 - Dikke font
 - Groot font
 - Let op kleuren
@@ -64,20 +64,20 @@ Tijdens het gesprek met Roger heb ik deze aantekeningen gemaakt:
 - Annotaties terug kunnen vinden 
 - Voorlezen
 
-*** Kleuren 
+### Kleuren 
 - Geel. Op zwart is fijn
 - Wit is moeilijk
 
-*** Handige dingen:
+### Handige dingen:
 Contrast checker
 Horen dat er aantekeningsen
 Macula visie, bekijk voor mer info
 Html converter to word doc
 
-*** Stappen plan:
+### Stappen plan:
 - Doe onderzoek naar bestaande ideetjes
 
-*** Voortgang gesprek week 1
+### Voortgang gesprek week 1
 - Javascript screenreader maken 
 - Tip voor de eerste week: maak kleine testjes waar je een bevinding uit kunt halen.
 - Gebruik meerdere manieren voor 1 probleem en test die
