@@ -3,38 +3,125 @@ body {
     background-color: #000;
     color: #FFD700;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 80vw;
     margin: auto;
     padding: 20px;
 }
 
 h1, h2, h3 {
     color: #FFFFFF;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-h3 {
-    font-size: 1.2em;
+    font-family: inter;
+    font-weight: 500;
 }
 
 button {
     background-color: #FFD700;
     color: #000;
     padding: 10px 15px;
+    margin: 5px 5px 10px 0;
     border: none;
     cursor: pointer;
     font-size: 1em;
+    border-radius: 5px;
 }
 
 button:hover {
     background-color: #FFC107;
 }
 
+#filters {
+    margin-bottom: 20px;
+}
 
+#annotations {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 10px;
+}
+.annotation {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    border-left: 5px solid #FFD700;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+main {
+    flex: 2;
+}
+
+aside#annotations {
+    flex: 1;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+aside h2 {
+    color: #FFD700;
+}
+
+.annotation {
+    background-color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #FFD700;
+}
+
+button {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .main-wrapper {
+        flex-direction: column;
+    }
+
+    aside#annotations {
+        margin-top: 20px;
+    }
+}
+
+.font-size-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  #fontSizeSlider {
+    width: 120px;
+  }
+  
+
+  body {
+    cursor: url('https://www.google.com/favicon.ico'), auto; /* voorbeeld van een grotere cursor */
+  }
+
+  /* Of gebruik een grotere standaard cursor */
+  .large-cursor {
+    cursor: none;
+    position: absolute;
+    z-index: 9999;
+    width: 40px; /* Grootte van de cursor */
+    height: 40px;
+    background-color: yellow; /* Gele kleur voor de cursor */
+    border-radius: 50%; /* Maak het een cirkel */
+    pointer-events: none;
+    transform: translate(-50%, -50%); /* Zorgt ervoor dat de cirkel goed gepositioneerd is */
+  }
+
+  /* Maak de tekst groter en voeg wat margin toe voor leesbaarheid */
+  .content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+  }

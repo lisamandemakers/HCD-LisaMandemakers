@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Grondslagen van de Filosofie</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De Grondslagen van de Filosofie</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+  <div class="main-wrapper">
+    <main>
+      <h1 tabindex="0">De Grondslagen van de Filosofie</h1>
 
-    <h1>De Grondslagen van de Filosofie</h1>
+      <section>
+        <h2 tabindex="0">Inleiding <button onclick="addNoteFor(this)">📝</button></h2>
 
-    <h2>Inleiding</h2>
+        <h3 tabindex="0">Wat is filosofie? <button onclick="addNoteFor(this)">📝</button></h3>
+        <p tabindex="0">Filosofie is de studie van fundamentele vragen over het bestaan, kennis, moraal en bewustzijn. <button onclick="addNoteFor(this)">📝</button></p>
 
-    <h3>Wat is filosofie?</h3>
-    <p>Filosofie is de studie van fundamentele vragen over het bestaan, kennis, moraal en bewustzijn.</p>
+        <h3 tabindex="0">Waarom is filosofie belangrijk? <button onclick="addNoteFor(this)">📝</button></h3>
+        <p tabindex="0">Filosofie heeft invloed op ethiek, wetenschap en samenleving... <button onclick="addNoteFor(this)">📝</button></p>
 
-    <h3>Waarom is filosofie belangrijk?</h3>
-    <p>Filosofie heeft invloed op ethiek, wetenschap en samenleving. Grote denkers zoals Plato, Kant en Nietzsche hebben de manier waarop we naar de wereld kijken gevormd.</p>
+        <h2 tabindex="0">Hoofdstuk 1: Klassieke Filosofie <button onclick="addNoteFor(this)">📝</button></h2>
 
-    <h2>Hoofdstuk 1: Klassieke Filosofie</h2>
+        <h3 tabindex="0">De presocratische denkers <button onclick="addNoteFor(this)">📝</button></h3>
+        <ul>
+          <li tabindex="0">Thales: alles bestaat uit water <button onclick="addNoteFor(this)">📝</button></li>
+          <li tabindex="0">Heraclitus: verandering is de essentie van het bestaan <button onclick="addNoteFor(this)">📝</button></li>
+        </ul>
 
-    <h3>De presocratische denkers</h3>
-    <ul>
-        <li>Thales: alles bestaat uit water</li>
-        <li>Heraclitus: verandering is de essentie van het bestaan</li>
-    </ul>
+        <h3 tabindex="0">Socrates, Plato en Aristoteles <button onclick="addNoteFor(this)">📝</button></h3>
+        <ul>
+          <li tabindex="0">Socrates: de kunst van het vragen stellen <button onclick="addNoteFor(this)">📝</button></li>
+          <li tabindex="0">Plato: Ideeënleer – fysieke wereld als schaduw van de werkelijkheid <button onclick="addNoteFor(this)">📝</button></li>
+        </ul>
 
-    <h3>Socrates, Plato en Aristoteles</h3>
-    <ul>
-        <li>Socrates: de kunst van het vragen stellen</li>
-        <li>Plato: Ideeënleer – fysieke wereld als schaduw van de werkelijkheid</li>
-    </ul>
+        <h2 tabindex="0">Conclusie <button onclick="addNoteFor(this)">📝</button></h2>
+        <h3 tabindex="0">Hoe filosofie ons denken beïnvloedt <button onclick="addNoteFor(this)">📝</button></h3>
+        <p tabindex="0">Kritisch denken helpt in ethiek, politiek en logica. <button onclick="addNoteFor(this)">📝</button></p>
+      </section>
 
-    <h2>Conclusie</h2>
-    <h3>Hoe filosofie ons denken beïnvloedt</h3>
-    <p>Kritisch denken helpt in ethiek, politiek en logica.</p>
+      <div class="controls">
+        <button onclick="toggleSpeech()">🔊 Lees voor / ❌ Stop</button>
+        <button onclick="startDictation()">🎤 Spraaknotitie</button>
 
-    <button onclick="startSpeech()">🔊 Lees voor</button>
+        <div class="font-size-control">
+          <label for="fontSizeSlider">🔠 Tekstgrootte:</label>
+          <input type="range" id="fontSizeSlider" min="14" max="30" value="16" step="1">
+          <span id="fontSizeValue">16px</span>
+        </div>
+      </div>
+      
+    </main>
 
-    <script src="scripts/script.js"></script>
+    <aside id="annotations">
+      <h2 tabindex="0">🗂️ Notities</h2>
+      <!-- Notities verschijnen hier -->
+    </aside>
+  </div>
 
-</body>
-</html>
-
+  <script src="scripts/script.js"></script>
 </body>
 </html>
