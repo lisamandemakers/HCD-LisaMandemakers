@@ -1,127 +1,213 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #FFD700;
-    line-height: 1.6;
-    max-width: 80vw;
-    margin: auto;
-    padding: 20px;
-}
+:root {
+    --mint: #00ffc8;
+    --coral: #ff7675;
+    --lemon: #ffe66d;
+    --lavender: #a29bfe;
+  
+    --bg-color: #1a1a1a;
+    --text-color: #f6eb5c;
+    --navbar-bg: #2b2b2b;
+    --border-color: #444;
+    --highlight: #333;
 
-h1, h2, h3 {
-    color: #FFFFFF;
+    --font-family: inter;
+  }
+  
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; /* voorkomt dubbele scrollbars */
+    display: flex;
+    flex-direction: column;
     font-family: inter;
-    font-weight: 500;
-}
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
 
-button {
-    background-color: #FFD700;
-    color: #000;
-    padding: 10px 15px;
-    margin: 5px 5px 10px 0;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--navbar-bg);
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .play-button {
+    font-size: 1.5rem;
+    background: none;
+    color: var(--text-color);
     border: none;
     cursor: pointer;
-    font-size: 1em;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #FFC107;
-}
-
-#filters {
-    margin-bottom: 20px;
-}
-
-#annotations {
-    margin-top: 30px;
-    padding: 10px;
-    background-color: #222;
-    border-radius: 10px;
-}
-.annotation {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #333;
-    border-left: 5px solid #FFD700;
-}
-
-.main-wrapper {
+  }
+  
+  .navbar-controls {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-main {
+    gap: 2rem;
+    color: var(--text-color);
+  }
+  
+  .slider-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-container {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .text-section {
     flex: 2;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .text-box {
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: #262626;
+  }
 
-aside#annotations {
-    flex: 1;
-    background-color: #222;
-    padding: 15px;
+  #textBox {
+    height: 70vh; /* of bijvoorbeeld 60vh, wat jij prettig vindt */
+    overflow-y: auto; /* maakt verticale scroll mogelijk */
+    padding: 1rem;
     border-radius: 10px;
-    max-height: 90vh;
-    overflow-y: auto;
-}
-
-aside h2 {
-    color: #FFD700;
-}
-
-.annotation {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .text-box h2,
+  .text-box p {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .text-box p:focus {
+    outline: 2px dashed var(--lemon);
     background-color: #333;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-left: 5px solid #FFD700;
-}
-
-button {
-    margin-right: 5px;
-}
-
-@media (max-width: 768px) {
-    .main-wrapper {
-        flex-direction: column;
-    }
-
-    aside#annotations {
-        margin-top: 20px;
-    }
-}
-
-.font-size-control {
+  }
+  
+  .annotation-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .color-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .color {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .color:hover {
+    transform: scale(1.1);
+  }
+  
+  .color1 {
+    background-color: var(--mint);
+  }
+  .color2 {
+    background-color: var(--coral);
+  }
+  .color3 {
+    background-color: var(--lemon);
+  }
+  .color4 {
+    background-color: var(--lavender);
+  }
+  
+  .annotation-input {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+  }
+  
+  .annotation-input input {
+    flex: 1;
+    padding: 0.5rem;
+    background-color: #333;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+  }
+  
+  .plus-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: var(--lemon);
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .annotation-sidebar {
+    flex: 1;
+    background-color: #262626;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    color: var(--text-color);
+  }
+  
+  .annotation-title {
+    margin-top: 0;
+  }
+  
+  .category {
+    font-weight: bold;
     margin-top: 1rem;
+    cursor: pointer;
+    background-color: #333;
+    padding: 0.3rem;
+    border-radius: 4px;
   }
   
-  #fontSizeSlider {
-    width: 120px;
+  .category:hover {
+    background-color: #444;
   }
   
-
-  body {
-    cursor: url('https://www.google.com/favicon.ico'), auto; /* voorbeeld van een grotere cursor */
+  ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
   }
-
-  /* Of gebruik een grotere standaard cursor */
-  .large-cursor {
-    cursor: none;
-    position: absolute;
-    z-index: 9999;
-    width: 40px; /* Grootte van de cursor */
-    height: 40px;
-    background-color: yellow; /* Gele kleur voor de cursor */
-    border-radius: 50%; /* Maak het een cirkel */
-    pointer-events: none;
-    transform: translate(-50%, -50%); /* Zorgt ervoor dat de cirkel goed gepositioneerd is */
+  
+  .voice-button {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
   }
-
-  /* Maak de tekst groter en voeg wat margin toe voor leesbaarheid */
-  .content p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 1.5em;
+  
+  .microphone-icon {
+    font-size: 1.5rem;
+    color: var(--text-color);
   }
+  
