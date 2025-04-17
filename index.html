@@ -23,10 +23,10 @@
 
   <main class="main-container">
     <section class="text-section">
-      <div class="text-box" id="textBox">
+      <div class="text-box" id="editable-text" contenteditable="true">
         <h1 tabindex="0">De Grondslagen van de Filosofie</h1>
 
-        <section>
+  
             <p tabindex="0">In truth, the present philippic is as necessary to the completeness of
                 the whole of Nietzsche’s system as the keystone is to the arch. All the
                 curves of his speculation lead up to it. What he flung himself against,
@@ -209,27 +209,30 @@
                 at its finest flower. This is the “conspiracy” he sets forth in all the
                 panoply of his characteristic italics, dashes, <i>sforzando</i> interjections
                 and exclamation points.</p>
-        </section>
+
       </div>
 
       <div class="annotation-controls">
-        <div class="color-buttons">
-          <button class="color color1" onclick="highlightSelection('mint')"></button>
-          <button class="color color2" onclick="highlightSelection('coral')"></button>
-          <button class="color color3" onclick="highlightSelection('lemon')"></button>
-          <button class="color color4" onclick="highlightSelection('lavender')"></button>
-        </div>
+    
         <div class="annotation-input">
-          <p class="annotation-label">Annotatie toevoegen:</p>
           <input type="text" id="annotationText" placeholder="Typ hier je notitie" />
           <button class="plus-button" onclick="addAnnotation()">+</button>
+          <div class="color-buttons">
+            <button class="color color1" onclick="highlightSelection('mint')"></button>
+            <button class="color color2" onclick="highlightSelection('coral')"></button>
+            <button class="color color3" onclick="highlightSelection('lemon')"></button>
+            <button class="color color4" onclick="highlightSelection('lavender')"></button>
+          </div>
         </div>
+        <div class="voice-button" onclick="toggleVoiceCommands()">
+            <span class="microphone-icon">🎤</span>
+          </div>
       </div>
     </section>
 
     <aside class="annotation-sidebar">
       <h3 class="annotation-title">Notities</h3>
-      <div class="category category1" onclick="toggleCategory('mint')">Categorie 1 <span class="arrow">▼</span></div>
+      <div contenteditable="true" class="category category1" onclick="toggleCategory('mint')">Categorie 1 <span class="arrow">▼</span></div>
       <ul id="mint-list"></ul>
 
       <div class="category category2" onclick="toggleCategory('coral')">Categorie 2 <span class="arrow">▼</span></div>
@@ -242,9 +245,7 @@
       <ul id="lavender-list"></ul>
     </aside>
 
-    <div class="voice-button" onclick="toggleVoiceCommands()">
-      <span class="microphone-icon">🎤</span>
-    </div>
+   
   </main>
 
   <script src="scripts/script.js"></script>
