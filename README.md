@@ -123,6 +123,9 @@ Na het maken van mijn schets ben ik direct begonnen in Visual Studio om de eerst
 
 ### Roger's inzichten uit test 2
 
+Mike heeft mijn hele test gefilmd en na opnieuw bekijken van de video ben ik uit deze inzichten gekomen:
+
+
 #### Toegankelijkheid en Leesbaarheid
 - Invert-opties met linten werken verwarrend
 - Tekst vergroten heeft weinig effect
@@ -166,18 +169,23 @@ Na het maken van mijn schets ben ik direct begonnen in Visual Studio om de eerst
 ---
 
 ## Week 3 – Spraak & Annotatie-kleuren
-In week
+In week 3 wilde ik het echt anders gaan aanpakken want na de eerste echte test te hebben gedaan met Roger kwmam ik zoals hier boven te zien is toch achter een heleboel dingen. Ik heb even in XD een wireframe gemaakt om toch even in te zien waar ik precies naartoe wilde en een visueel overzicht te creeëren. ZO zag dat er uit: ![XD-schets](/readme-img/digitalschets.png)
+
+
 
 ### Planning
 - Spraakcommando’s laten werken
 - Kunnen selecteren hoeveel zinnen je markeert
 - Kleuren koppelen aan toetsen (R = rood, B = blauw, P = paars)
 
-### Voortgang gesprek met Vasilis
-#### Annotatie & spraak
-- Shift-knop laat tekst voorlezen die je hebt getypt
-- Annotaties moeten aanpasbaar zijn
-- Willekeurige volgorde van annotaties testen
+### Test 3 inzichten
+- Kleuren knoppen waren te groot
+- Hij wilt de annotaties graag zelf kunnen aanpassen en selecteren
+- Hij wilt losse woordjes kunnen markeren
+- Tab rand opvallender
+- Annotatie gedeelte groter
+- Sliders mooi geel maken
+
 
 #### Visuele en structurele verbeteringen
 - Kleurenknoppen waren te groot
@@ -190,6 +198,9 @@ In week
 - Niet alles tegelijk willen testen
 - Eerst focussen op 1 duidelijke feature
 - Bedenk en vraag wat Roger een fijne volgorde vind van annotaties maken
+- Shift-knop laat tekst voorlezen die je hebt getypt
+- Annotaties moeten aanpasbaar zijn
+- Willekeurige volgorde van annotaties testen
 
 ---
 
