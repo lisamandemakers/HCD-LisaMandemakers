@@ -215,7 +215,7 @@
       <div class="annotation-controls">
     
         <div class="annotation-input">
-          <input type="text" id="annotationText" placeholder="Typ hier je notitie" />
+          <input type="text" id="annotationText" placeholder="Typ hier je annotatie" />
           <button class="plus-button" onclick="addAnnotation()">+</button>
           <div class="color-buttons">
             <button class="color color1" onclick="highlightSelection('mint')"></button>
@@ -232,18 +232,17 @@
 
     <aside class="annotation-sidebar">
       <h3 class="annotation-title">Notities</h3>
-      <div contenteditable="true" class="category category1" onclick="toggleCategory('mint')">Categorie 1 <span class="arrow">▼</span></div>
-      <ul id="mint-list"></ul>
-
-      <div class="category category2" onclick="toggleCategory('coral')">Categorie 2 <span class="arrow">▼</span></div>
-      <ul id="coral-list"></ul>
-
-      <div class="category category3" onclick="toggleCategory('lemon')">Categorie 3 <span class="arrow">▼</span></div>
-      <ul id="lemon-list"></ul>
-
-      <div class="category category4" onclick="toggleCategory('lavender')">Categorie 4 <span class="arrow">▼</span></div>
-      <ul id="lavender-list"></ul>
+    
+      <div id="add-category-wrapper">
+        <button class="add-category-button" onclick="toggleCategoryInput()">+ Categorie toevoegen</button>
+        <div id="new-category-form" style="display: none;">
+          <input type="text" id="newCategoryName" placeholder="Nieuwe categorie" class="input-field" />
+          <button class="add-category-button" onclick="addNewCategory()">Toevoegen</button>
+        </div>
+      </div>
+      
     </aside>
+    
 
    
   </main>

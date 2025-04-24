@@ -1,85 +1,198 @@
-# Readme Lisa Mandemakers
+# HCD Document – Lisa Mandemakers
+
 ## De opdracht
-Ik heb als test persoon Roger. Roger heeft maculadegeneratie. Hij kan steeds slechter zien en is nu op het punt dat hij echt niet meer zonder screen reader kan. Hij studeert filosofie en wilt graag annotaties kunnen maken in de (digitale) boeken die hij leest, en die annotaties makkelijk terug kunnen vinden.
+Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een erfelijke en progressieve oogaandoening. Zijn zicht is ernstig beperkt – hij ziet alleen nog om een soort ‘koker’ heen. Hij studeert filosofie en wil graag op een toegankelijke manier annotaties kunnen maken in digitale boeken, en deze eenvoudig kunnen terugvinden.
 
-## Week 1 
-Gister heb ik kennis gemaakt met Roger en heeft hij zijn verhaal met ons gedeeld. Van te voren hebben we samen als groep de volgende vragen bedacht: 
-* Wat doe je momenteel om annotaties te maken?
-* Wat voor annotaties maak je momenteel?
-* wat voor screenreader gebruik je? (voice over & jaws & nvda)
-* grooste uitdagingen bij het maken van aantekeningen?
-* hoe zou je het liefst aantekeningen willen maken (typen, dicteren &  audio-opnames & liken / type zinnen opslaan en fovorieten (qua intonatie, jokes, gevoel))
-* hoe wil je de aantekeningen het liefst opslaan
-* hoe lees je momenteel je boeken / beschrijf je studie/lees-routine
-* welke tools gebruik je momenteel allemaal?
-* hoe vind je je annotaties momenteel terug?
-* kan je een stukje lezen uit je screenreader (om ons een beter visie te geven van hoe een screenreader werkt)?
+---
 
-Tijdens het gesprek met Roger heb ik deze aantekeningen gemaakt:
-- 58 jaar
-- Erfelijke oogaandoening (progressief)
-- Wazig aan het juvenile macula oogaandoening
-- Hij ziet om een soort “koker” heen, een inversie van kokervisie
-- Luisteren is een ander gebied in je bruin waardoor je sneller inslaap valt
+## Week 1 – Eerste kennismaking
 
-- Het is een lastig proces om dingen weer makkelijk terug te vinden
-- 1 procent zicht 40 zicht links
-- Het is heel vermoeiend want twee beelden
-    - Energie management is een ding
-    - Licht hinder is echt heel vermoeiend
-    - Dark modus is en een goede uitvinding, maar hij kwam er pas hel laat achter
-- Maakt gebruik van iPhone screen reader
-- Eyetracking zou te vermoeiend zijn
-- Kwestie van trainen om te navigeren en de aangepaste toegnankelijke technologie te begrijpen
-- Supernova
+### Voorbereide vragen
+- Wat doe je momenteel om annotaties te maken?
+- Wat voor annotaties maak je?
+- Welke screenreader gebruik je (VoiceOver, JAWS, NVDA)?
+- Wat zijn je grootste uitdagingen bij het maken van aantekeningen?
+- Hoe zou je het liefst aantekeningen maken (typen, dicteren, audio-opnames, favorieten)?
+- Hoe wil je de aantekeningen het liefst opslaan?
+- Hoe lees je momenteel je boeken? Wat is je studie/leesroutine?
+- Welke tools gebruik je momenteel allemaal?
+- Hoe vind je je annotaties momenteel terug?
+- Kun je een stukje laten horen uit je screenreader?
 
-- Spraak berichtjes kan je omzetten van spraak tot tekst. Maar hij heeft moeite met goede zinnen maken en je kan niet mooie verslagen maken.
-- Vroeger, maakte hij aan tekeningen, hij wilde alles eerst proberen te onthouden maar dat lukt niet. Doordat hij het alsnog in schriftjes schrijft onthoud hij beter; actief onthouden. 
-- Foto’s maken die voorlezen wat er op de foto staat, is niet altijd even zuiver.
-- Het is niet ideaal om te schrijven, maar hij heeft nu geen betere manier, maar is daar wel op zoek naar. 
-- habeltje?? = machine met 6 knopjes 
+### Observaties & inzichten
 
-- Thuis leest hij voorral opdrachten
-- Aangepast loket, passend lezen, je kan streamen
-- Daily com, met een verklaring dat je een handicap heb, kun je boeken lenen, is een word met een goede koppen structuur. Productie verzoek duurt echter heel lang 8 maanden.
+#### Algemene info
+- Leeftijd: 58
+- Oogaandoening: erfelijke maculadegeneratie (progressief)
+- Slechts 1% zicht links, rest wazig en vermoeiend
+- Omgekeerde kokervisie
 
-- Je loopt als blinde vaak achter de feiten aan 
-- Gaat niet volledig af op de screen reader 
-- Letters grootte en dikte aanpassen heeft nut 
-- Een screenreader slaat soms dingen over en dat ziet roger, dat is heel frustrerend
-- “Koppen structuur”
-- nvde screenreader
-- Per zin, per woord wil roger het fixen
-- Inspreken is het makkelijks, zinnen kopiëren en documenten combineren aan een zin. 
+#### Dagelijks gebruik
+- Screenreaders: iPhone VoiceOver, NVDA, Supernova
+- Annoteren met handschrift in schriftjes (helpt bij onthouden)
+- Hable One: 6-knops braille-invoer
+- Lezen via Passend Lezen (langzame levertijd)
 
-- Verschillende sprakelijke commands maken
-- Uiteindelijk eigen woorden van maken
-- Wat denk je nou zelf en wat houd je aan
+#### Problemen & frustraties
+- Energieverlies door visuele vermoeidheid
+- Spraak-naar-tekst levert rommelige zinnen op
+- Eyetracking te vermoeiend
+- Screenreader mist soms cruciale info (frustrerend)
+- Geen goede manier om annotaties terug te vinden
 
-### Website:
-- Dikke font
-- Groot font
-- Let op kleuren
-- Dark modus
-- Annotaties terug kunnen vinden 
-- Voorlezen
+#### Wensen & doelen
+- Annoteren met stem, opslaan per zin of woord
+- Annotaties kunnen voorlezen
+- Heldere koppenstructuur in tekst
+- Donkere modus, groot en dik lettertype
+- Geel-op-zwart is prettig
+- Combineerbare tools (niet afhankelijk van één)
 
-### Kleuren 
-- Geel. Op zwart is fijn
-- Wit is moeilijk
+### Eerste ideeën & aanpak
 
-### Handige dingen:
-Contrast checker
-Horen dat er aantekeningsen
-Macula visie, bekijk voor mer info
-Html converter to word doc
+#### Prototype-aanpak
+- Test meerdere oplossingen per probleem
+- Gebruik lo-fi/Wizard of Oz methode
+- Bouw kleine testjes met focus op inzicht
 
-### Stappen plan:
-- Doe onderzoek naar bestaande ideetjes
+#### Technische ideeën
+- Gebruik terminal commando `say` om stem te simuleren
+- Simuleer meerdere manieren van invoer: typen, dicteren, audio, favorieten
+- HTML naar Word converter overwegen
 
-### Voortgang gesprek week 1
-- Javascript screenreader maken 
-- Tip voor de eerste week: maak kleine testjes waar je een bevinding uit kunt halen.
-- Gebruik meerdere manieren voor 1 probleem en test die
-- Kies lo-fi over hi-fi, laat het lijken alsof het werkt
-- Kies met de terminal een stem uit: “say” als command
+#### Ontwerpuitgangspunten
+- Donkere modus als standaard
+- Grote, dikke typografie
+- Annotaties zichtbaar én hoorbaar
+- Navigatie via koppen en screenreader
+- Feedback bij aanwezigheid van annotatie
+
+---
+## Week 2 – Toegankelijkheid & Test 2
+
+### Belangrijke bevindingen over toegankelijkheid
+
+#### Feiten
+- 1 op de 6 mensen heeft moeite met lezen
+- 70% van de dove mensen is functioneel ongeletterd
+- Lezen kost veel energie ("Reading = effort")
+- Gebarentaal heeft geen geschreven vorm, wat lezen nog moeilijker maakt
+
+#### Webtoegankelijkheid verbeteren
+- Gebruik duidelijke headings
+- Houd teksten kort en bondig
+- Gebruik afbeeldingen en multimedia ter ondersteuning (visual translation)
+- Gebruik ondertiteling of closed captions:
+  - *Ondertiteling:* vertaalt de gesproken taal
+  - *Closed captions:* bevat ook geluidsinfo en stem-emotie (boost ook video SEO)
+- Bied meerdere contactmogelijkheden aan
+
+---
+
+### Designproces & Test 2
+
+#### Testvragen (observatie)
+- “Wat verwacht je dat er gebeurt als je hier klikt?”
+- “Wat vind je van de plaats van deze knop?”
+- “Wat ga je nu doen? Waarom?”
+- “Wat denk je dat deze functie doet?”
+- “Zou je dit makkelijk kunnen gebruiken zonder uitleg?”
+
+#### Reflectievragen (na afloop)
+1. **Algemene indruk**
+   - Wat vond je van de applicatie?
+   - Eerste indruk van het ontwerp?
+2. **Gebruiksgemak**
+   - Was het duidelijk wat je moest doen?
+   - Was de interface logisch?
+3. **Functies**
+   - Voorleesfunctie bruikbaar?
+   - Annotaties maken makkelijk?
+   - Tekst aanpassen nuttig?
+4. **Verbeterpunten**
+   - Wat frustreerde je?
+   - Wat zou jij verbeteren?
+5. **Waarde**
+   - Zou je het gebruiken? Waarom wel/niet?
+
+---
+
+### Roger's inzichten uit test 2
+
+#### 🔠 Toegankelijkheid en Leesbaarheid
+- Invert-opties met linten werken verwarrend
+- Tekst vergroten heeft weinig effect
+- Outlines van tabs moeten duidelijker
+- Emojis op knoppen: wit op geel werkt niet (slecht contrast)
+
+#### 🧭 Navigatie en Interactie
+- Zijmenu met opties: enthousiast over
+- Via Tab naar annotaties kunnen navigeren
+- Per zin markeren is een grote wens
+
+#### 🗣️ Spraak en Voorlezen
+- Knop om eigen annotaties te laten voorlezen gewenst
+- Invoer via spraak moet zichtbaar zijn, liefst per woord
+
+#### 📝 Annotaties en Markering
+- Annotaties in aparte kleur
+- Markeren met border werkt beter dan highlight
+- Willekeurig bestaande annotaties kunnen toevoegen
+
+#### 👆 Tactiele Interactie
+- F- en G-toetsen zijn voelbaar en helpen bij oriëntatie
+
+#### 🎨 Visuele Ondersteuning
+- Visuele/abstracte illustraties helpen bij begrip
+
+---
+
+### Wat ik nu ga doen voor de applicatie
+- Tekst vergroten-optie behouden
+- Tab-outlines verbeteren
+- Knoppen met symbolen + alt-tekst
+- Zijmenu met instellingen toevoegen
+- Spraakcommando's implementeren
+- Shortcuts voor annotatie-navigatie
+- Per zin kunnen markeren
+- Voorleesfunctie voor eigen tekst
+- Annotaties in kleuren
+- Illustraties toevoegen (idee: AI-generatie uit tekst)
+
+---
+
+## Week 3 – Spraak & Annotatie-kleuren
+
+### Planning
+- Spraakcommando’s laten werken
+- Kunnen selecteren hoeveel zinnen je markeert
+- Kleuren koppelen aan toetsen (R = rood, B = blauw, P = paars)
+
+### Voortgang gesprek Roger
+#### Annotatie & spraak
+- Shift-knop laat tekst voorlezen die je hebt getypt
+- Annotaties moeten aanpasbaar zijn
+- Willekeurige volgorde van annotaties testen
+
+#### Visuele en structurele verbeteringen
+- Kleurenknoppen waren te groot
+- Rand/tab van annotatie-tab moet opvallender
+- Annotatieblok groter maken
+- Sliders in opvallend geel
+- Contrast bij tekstinvoer verbeteren
+
+#### Focus-aanpak
+- Niet alles tegelijk willen testen
+- Eerst focussen op 1 duidelijke feature
+
+---
+
+## Week 4 – Annotatiestructuur & Test 4
+
+### Test 4 resultaten
+- Meer overzicht werd als prettig ervaren
+- Categorieën in annotaties toevoegen werd benoemd als wens
+- Lettergrootte voor categorieën nog wat klein
+
+---
+

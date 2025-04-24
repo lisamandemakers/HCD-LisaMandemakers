@@ -57,6 +57,40 @@
     display: flex;
     flex-direction: column;
   }
+
+  .slider-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+  }
+
+  input[type="range"] {
+    width: 200px;
+    height: 12px;
+    -webkit-appearance: none;
+    background: #fdd835; /* Geel */
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #ffff0b;
+    cursor: pointer;
+    margin-top: -6px; /* centreren */
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #fbc02d;
+    cursor: pointer;
+  }
   
   .main-container {
     display: flex;
@@ -160,6 +194,12 @@
     height: 100%;
     width: 300px;
     border-radius: 8px;
+    color: var(--text-color);
+    font-size: 2em;
+  }
+  .annotation-input input::placeholder {
+    color: #ffeb3b; /* helder geel, goed zichtbaar */
+    opacity: 1; /* zorgt dat het niet transparant is */
   }
   
   .plus-button {
@@ -191,27 +231,28 @@
   
   .category {
     font-weight: bold;
+    font-size: 2rem;
     margin-top: 1rem;
     cursor: pointer;
     background-color: #333;
-    padding: 3rem;
+    padding: 1rem;
     border-radius: 60px;
     text-align: center;
 
 
-    &:nth-of-type(1){
+    &:nth-of-type(2){
         background-color: var(--mint);
         color: var(--bg-color);
     }
-    &:nth-of-type(2){
+    &:nth-of-type(3){
         background-color: var(--coral);
         color: var(--bg-color);
     }
-    &:nth-of-type(3){
+    &:nth-of-type(4){
         background-color: var(--lemon);
         color: var(--bg-color);
     }
-    &:nth-of-type(4){
+    &:nth-of-type(5){
         background-color: var(--lavender);
         color: var(--bg-color);
     }
@@ -240,3 +281,55 @@
     color: var(--text-color);
   }
   
+/* duidelijke tab rand */
+    :focus-visible {
+    outline: 4px dashed #ffea00 !important;
+    outline-offset: 4px;
+    box-shadow: 0 0 10px 3px #ffea003f;
+    transition: box-shadow 0.2s;
+  }   
+
+
+
+/* Algemene knopstijl */
+.add-category-button {
+  background-color: #FFEB3B; /* Gele kleur voor de knop */
+  color: black; /* Zwarte tekst voor het beste contrast */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.add-category-button:hover {
+  background-color: #FDD835; /* Iets donkerdere geel voor hover effect */
+}
+
+/* Stijl voor het input veld */
+.input-field {
+  background-color: #333;
+  border: 1px solid #FFEB3B; /* Gele rand die overeenkomt met de knop */
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.input-field::placeholder {
+  color: #aaa; /* Grijze placeholder kleur */
+}
+
+/* Verbergen van het formulier bij default */
+#new-category-form {
+  display: none;
+}

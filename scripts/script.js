@@ -123,3 +123,96 @@ document.addEventListener('keydown', (e) => {
 
 // 🚀 START BIJ LADEN
 window.addEventListener("DOMContentLoaded", splitIntoTabbableSpans);
+
+
+// 🖍️ SHORTCUTS TOETSEN 
+document.addEventListener('keydown', (e) => {
+  const key = e.key.toLowerCase();
+  const activeTag = document.activeElement.tagName.toLowerCase();
+
+  // ⛔ Voorkom dat bepaalde sneltoetsen werken als je in het inputveld typt
+  const isTyping = activeTag === 'input' || activeTag === 'textarea';
+
+  // 🔤 Focus op inputveld (altijd toegestaan)
+  if (key === 'j') {
+    document.getElementById('annotationText').focus();
+    return;
+  }
+
+  // 🗣️ Spreek annotatie uit (toegestaan, zelfs als je in input zit)
+  if (e.key === 'Shift') {
+    const input = document.getElementById('annotationText').value.trim();
+    if (input) {
+      const utterance = new SpeechSynthesisUtterance(input);
+      window.speechSynthesis.speak(utterance);
+    }
+    return;
+  }
+
+  // Sla de rest over als je in het inputveld typt
+  if (isTyping) return;
+
+  // 🎨 Highlight sneltoetsen
+  if (key === 'g') {
+    highlightSelection('mint');
+  } else if (key === 'r') {
+    highlightSelection('coral');
+  } else if (key === 'y') {
+    highlightSelection('lemon');
+  } else if (key === 'p') {
+    highlightSelection('lavender');
+  }
+
+  // ➕ Voeg annotatie toe
+  if (key === 'f') {
+    addAnnotation();
+  }
+
+  // ⌨️ Extra: focus navbar met toets C
+  if (key === 'c') {
+    document.querySelector('.navbar')?.focus();
+  }
+});
+
+
+function toggleCategoryInput() {
+  const form = document.getElementById("new-category-form");
+  form.style.display = form.style.display === "none" ? "block" : "none";
+}
+
+function addNewCategory() {
+  const name = document.getElementById("newCategoryName").value.trim();
+  if (!name) return;
+
+  // Kleuren voor de categorieën
+  const colors = ['mint', 'coral', 'lemon', 'lavender'];
+  const sidebar = document.querySelector(".annotation-sidebar");
+  const existingCategories = sidebar.querySelectorAll('.category');
+  const newIndex = existingCategories.length;
+  const colorClass = colors[newIndex % colors.length];  // Dynamische kleur toewijzen
+
+  // Categorie en lijst aanmaken
+  const div = document.createElement("div");
+  div.className = `category ${colorClass}`;  // Dynamische kleur
+  div.contentEditable = true;
+  div.setAttribute("onclick", `toggleCategory('${colorClass}')`);
+  div.innerHTML = `${name} <span class="arrow">▼</span>`;
+
+  // Maak een lege lijst voor deze categorie
+  const ul = document.createElement("ul");
+  ul.id = `${colorClass}-list`;
+  ul.className = `${colorClass}-list`;
+
+  // Voeg toe aan de sidebar
+  sidebar.appendChild(div);
+  sidebar.appendChild(ul);
+
+  // Formulier resetten
+  document.getElementById("newCategoryName").value = "";
+  document.getElementById("new-category-form").style.display = "none";
+}
+
+function toggleCategory(colorName) {
+  const list = document.getElementById(`${colorName}-list`);
+  list.style.display = list.style.display === 'none' ? 'block' : 'none';
+}
