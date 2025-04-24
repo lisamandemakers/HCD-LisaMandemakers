@@ -95,6 +95,35 @@ In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen
 Na het maken van mijn schets ben ik direct begonnen in Visual Studio om de eerste mogelijke applicatie voor Roger te bouwen omdat we die woensdag gelijk weer moesten testen. Ik wilde de contrast kleuren heel hoog houden voor Roger dus koos voor een zwarte achtergrond met gele letters want hij heeft zelf aan gegeven dat het fijnst te vinden. Hier een afbeelding van mijn applicatie voor test nr.2 
 ![schets-1](/readme-img/prototype1.png)
 
+### Speech API 
+
+```js 
+function speakFullText() {
+  const text = document.getElementById('editable-text').innerText;
+
+  if (!text.trim()) return;
+
+  fullTextUtterance = new SpeechSynthesisUtterance(text);
+  window.speechSynthesis.speak(fullTextUtterance);
+
+  isPlaying = true;
+  isPaused = false;
+  document.querySelector('.play-button').textContent = '||';
+
+  fullTextUtterance.onend = () => {
+    isPlaying = false;
+    isPaused = false;
+    document.querySelector('.play-button').textContent = '▶';
+  };
+}
+```
+
+Deze functie haalt de tekst op uit het element met het ID editable-text en gebruikt de SpeechSynthesisUtterance API om de tekst hardop voor te lezen. Als de tekst niet leeg is, start ik de voorlezing. Ik zet de status op "afspelen" en verander de knoptekst naar het pauze-icoon. Zodra de voorlezing is afgelopen, zet ik de status weer op "niet aan het spelen" en wijzig ik de knoptekst terug naar het afspeel-icoon
+
+
+
+
+
 #### Testvragen (observatie)
 - “Wat verwacht je dat er gebeurt als je hier klikt?”
 - “Wat vind je van de plaats van deze knop?”
@@ -170,6 +199,8 @@ Mike heeft mijn hele test gefilmd en na opnieuw bekijken van de video ben ik uit
 
 ## Week 3 – Spraak & Annotatie-kleuren
 In week 3 wilde ik het echt anders gaan aanpakken want na de eerste echte test te hebben gedaan met Roger kwmam ik zoals hier boven te zien is toch achter een heleboel dingen. Ik heb even in XD een wireframe gemaakt om toch even in te zien waar ik precies naartoe wilde en een visueel overzicht te creeëren. ZO zag dat er uit: ![XD-schets](/readme-img/digitalschets.png)
+
+
 
 
 
