@@ -5,7 +5,7 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 
 ---
 
-## Week 1 – Eerste kennismaking
+## Week 1 
 
 ### Voorbereide vragen
 - Wat doe je momenteel om annotaties te maken?
@@ -68,7 +68,7 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 - Feedback bij aanwezigheid van annotatie
 
 ---
-## Week 2 – Toegankelijkheid & Test 2
+## Week 2 
 
 In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen ontwikkelen en bedacht. Ik heb er voor gekozen om een groot text vak te maken en daar naast wil ik dan een sidebar maken met annotaties. De grote vraag voor mij was, "hoe kan ik de annotaties makkelijk maken?" ik dacht er zelf aan om per zin een knopje toe te voegen zodat je daar op kunt klikken en doorgestuurd werd naar een type input waar je vervolgens je annotatie kon invoeren. Hier even een schetsje: ![schets-1](/readme-img/schets1.JPG)
 
@@ -197,11 +197,11 @@ Mike heeft mijn hele test gefilmd en na opnieuw bekijken van de video ben ik uit
 
 ---
 
-## Week 3 – Spraak & Annotatie-kleuren
+## Week 3 
 In week 3 wilde ik het echt anders gaan aanpakken want na de eerste echte test te hebben gedaan met Roger kwmam ik zoals hier boven te zien is toch achter een heleboel dingen. Ik heb even in XD een wireframe gemaakt om toch even in te zien waar ik precies naartoe wilde en een visueel overzicht te creeëren. ZO zag dat er uit: ![XD-schets](/readme-img/digitalschets.png)
 
 
-### annoteren op kleur
+### Annoteren op kleur
 ```js
 function highlightSelection(colorName) {
   if (selectedTextElement) {
@@ -272,7 +272,7 @@ toggleCategory: Deze functie verandert de zichtbaarheid van de lijst van annotat
 
 ---
 
-## Week 4 – Annotatiestructuur & Test 4
+## Week 4 
 
 ### Test 4 resultaten
 - Meer overzicht werd als prettig ervaren  
