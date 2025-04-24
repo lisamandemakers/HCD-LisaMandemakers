@@ -274,10 +274,24 @@ toggleCategory: Deze functie verandert de zichtbaarheid van de lijst van annotat
 
 ## Week 4 
 
+In week 4 heb ik mijn laatste test gehad. Mijn interface zag er zo uit:
+uit: ![eind-interface](/readme-img/eindinterface.png)
+
+Ik heb ik dit design de Roger de keuze gegeven om een categorie voor zijn annotaties toetevoegen, omdat hij in est 3 aangaf dat het te druk was voor zijn doen.   ![voeg-categorie-toe](/readme-img/addcategory.png)
+
+Eenmaal een categorie toegevoedgd ziet dat er zo uit:
+ ![categorie-toegevoegd](/readme-img/addedcat.png)
+
+
 ### Test 4 resultaten
 - Meer overzicht werd als prettig ervaren  
 - Categorieën in annotaties toevoegen werd benoemd als wens  
 - Lettergrootte voor categorieën nog wat klein  
+De mogelijkheid om tekst in meerdere categorieën te plaatsen werd als nuttig beschouwd
+
+Enkele gebruikers gaven aan dat ze een optie zouden willen om annotaties te exporteren
+
+De spraakfunctie werd gewaardeerd, maar er werd gevraagd om meer controle over de snelheid van de voorlezing
 
 ### Reflectie op Exclusive Design principles
 
