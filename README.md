@@ -201,7 +201,44 @@ Mike heeft mijn hele test gefilmd en na opnieuw bekijken van de video ben ik uit
 In week 3 wilde ik het echt anders gaan aanpakken want na de eerste echte test te hebben gedaan met Roger kwmam ik zoals hier boven te zien is toch achter een heleboel dingen. Ik heb even in XD een wireframe gemaakt om toch even in te zien waar ik precies naartoe wilde en een visueel overzicht te creeëren. ZO zag dat er uit: ![XD-schets](/readme-img/digitalschets.png)
 
 
+### annoteren op kleur
+```js
+function highlightSelection(colorName) {
+  if (selectedTextElement) {
+    selectedTextElement.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--' + colorName);
+    selectedTextElement.style.color = 'black'; // tekstkleur zwart maken
+    selectedColor = colorName;
+  }
+}
+```
+Deze functie markeert de geselecteerde tekst met een achtergrondkleur die is opgehaald uit de CSS-variabele --<colorName>. Als er tekst is geselecteerd, pas ik de achtergrondkleur en de tekstkleur aan, waarbij de tekst zwart wordt gemaakt. Ik sla de gekozen kleur op in de variabele selectedColor, zodat ik weet welke kleur is gebruikt voor de markering.
 
+```js
+function addAnnotation() {
+  if (!selectedTextElement || !selectedColor) return;
+
+  const text = document.getElementById('annotationText').value;
+  if (!text.trim()) return;
+
+  const ul = document.getElementById(`${selectedColor}-list`);
+  const li = document.createElement('li');
+  li.textContent = `"${selectedTextElement.textContent.trim()}" → ${text}`;
+  ul.appendChild(li);
+
+  document.getElementById('annotationText').value = '';
+}
+
+function toggleCategory(colorName) {
+  const list = document.getElementById(`${colorName}-list`);
+  list.style.display = list.style.display === 'none' ? 'block' : 'none';
+}
+```
+
+Deze twee functies voegen annotaties toe aan de geselecteerde tekst en beheren de zichtbaarheid van annotatiecategorieën.
+
+addAnnotation: Als er tekst is geselecteerd en een kleur is gekozen, voeg ik een annotatie toe aan de lijst die bij de geselecteerde kleur hoort. De annotatie bestaat uit de geselecteerde tekst en de bijbehorende opmerking die ik in een invoerveld heb ingevoerd. Daarna wordt het invoerveld geleegd.
+
+toggleCategory: Deze functie verandert de zichtbaarheid van de lijst van annotaties voor een bepaalde kleurcategorie. Als de lijst verborgen is, wordt deze zichtbaar, en anders wordt de lijst verborgen.
 
 
 ### Planning
