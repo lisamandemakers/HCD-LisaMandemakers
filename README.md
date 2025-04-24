@@ -70,7 +70,7 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 ---
 ## Week 2 – Toegankelijkheid & Test 2
 
-In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen ontwikkelen en bedacht. Ik heb er voor gekozen om een groot text vak te maken en daar naast wil ik dan een sidebar maken met annotaties. De grote vraag voor mij was, "hoe kan ik de annotaties makkelijk maken?" ik dacht er zelf aan om per zin een knopje toe te voegen zodat je daar op kunt klikken en doorgestuurd werd naar een type input waar je vervolgens je annotatie kon invoeren. Hier even een schetsje: ![Alt-tekst](/readme-img/schets1.JPG)
+In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen ontwikkelen en bedacht. Ik heb er voor gekozen om een groot text vak te maken en daar naast wil ik dan een sidebar maken met annotaties. De grote vraag voor mij was, "hoe kan ik de annotaties makkelijk maken?" ik dacht er zelf aan om per zin een knopje toe te voegen zodat je daar op kunt klikken en doorgestuurd werd naar een type input waar je vervolgens je annotatie kon invoeren. Hier even een schetsje: ![schets-1](/readme-img/schets1.JPG)
 
 ### Belangrijke bevindingen over toegankelijkheid (hoorcollege notes)
 
@@ -92,6 +92,8 @@ In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen
 ---
 
 ### Designproces & Test 2
+Na het maken van mijn schets ben ik direct begonnen in Visual Studio om de eerste mogelijke applicatie voor Roger te bouwen omdat we die woensdag gelijk weer moesten testen. Ik wilde de contrast kleuren heel hoog houden voor Roger dus koos voor een zwarte achtergrond met gele letters want hij heeft zelf aan gegeven dat het fijnst te vinden. Hier een afbeelding van mijn applicatie voor test nr.2 
+![schets-1](/readme-img/prototype1.png)
 
 #### Testvragen (observatie)
 - “Wat verwacht je dat er gebeurt als je hier klikt?”
