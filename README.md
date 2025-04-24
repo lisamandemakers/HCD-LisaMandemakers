@@ -302,7 +302,7 @@ Ook in deze fase stond de ervaring van Roger centraal. De verbeterde annotatiest
 De keuzes in contrast, typografie en visuele ondersteuning sluiten aan bij Roger's persoonlijke voorkeuren en visuele behoeftes, wat zijn identiteit als gebruiker centraal stelt.
 
 #### Add nonsense
-De suggestie om AI-gegenereerde illustraties toe te voegen op basis van tekst, is een speels en creatief idee dat buiten de functionele kaders treedt en bijdraagt aan een unieke beleving.
+Dingen groter maken dan, dat je denkt dat nodig is
 
 ### Wat ik zou doen met meer tijd
 Als ik nog extra tijd had om de applicatie verder uit te breiden, zou ik:
