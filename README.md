@@ -190,9 +190,28 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 ## Week 4 – Annotatiestructuur & Test 4
 
 ### Test 4 resultaten
-- Meer overzicht werd als prettig ervaren
-- Categorieën in annotaties toevoegen werd benoemd als wens
-- Lettergrootte voor categorieën nog wat klein
+- Meer overzicht werd als prettig ervaren  
+- Categorieën in annotaties toevoegen werd benoemd als wens  
+- Lettergrootte voor categorieën nog wat klein  
 
----
+### Reflectie op Exclusive Design principles
 
+#### Study situation
+Ook in deze fase stond de ervaring van Roger centraal. De verbeterde annotatiestructuur is gebaseerd op zijn feedback in eerdere tests, zoals de wens voor overzicht en controle.
+
+#### Ignore conventions
+In plaats van standaard UX-patronen te volgen, is gekozen voor een zijmenu, tabstructuur en categoriseerbare annotaties – aangepast op Roger’s voorkeuren in plaats van gangbare ontwerpstandaarden.
+
+#### Prioritise identity
+De keuzes in contrast, typografie en visuele ondersteuning sluiten aan bij Roger's persoonlijke voorkeuren en visuele behoeftes, wat zijn identiteit als gebruiker centraal stelt.
+
+#### Add nonsense
+De suggestie om AI-gegenereerde illustraties toe te voegen op basis van tekst, is een speels en creatief idee dat buiten de functionele kaders treedt en bijdraagt aan een unieke beleving.
+
+### Wat ik zou doen met meer tijd
+Als ik nog extra tijd had om de applicatie verder uit te breiden, zou ik:
+- **AI-integratie ontwikkelen** die tekst automatisch vertaalt naar visuele illustraties ter ondersteuning van de inhoud.
+- **Spraakherkenning optimaliseren**, zodat woorden per stuk worden herkend en weergegeven, wat meer controle geeft over het invoerproces.
+- **Een feedbacksysteem inbouwen**, zodat gebruikers hun ervaring direct kunnen terugkoppelen en ik het ontwerp op basis daarvan verder kan aanpassen.
+- **Ondersteuning voor meerdere talen** implementeren, inclusief Nederlandse Gebarentaal (NGT) via video of avatar.
+- **Meer aanpassingsopties voor de interface** toevoegen, zoals kleurenschema’s, lettertypen en lay-outs, om zo nog beter aan persoonlijke voorkeuren te voldoen.
