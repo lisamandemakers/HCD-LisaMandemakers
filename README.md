@@ -70,7 +70,9 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 ---
 ## Week 2 – Toegankelijkheid & Test 2
 
-### Belangrijke bevindingen over toegankelijkheid
+In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen ontwikkelen en bedacht. Ik heb er voor gekozen om een groot text vak te maken en daar naast wil ik dan een sidebar maken met annotaties. De grote vraag voor mij was, "hoe kan ik de annotaties makkelijk maken?" ik dacht er zelf aan om per zin een knopje toe te voegen zodat je daar op kunt klikken en doorgestuurd werd naar een type input waar je vervolgens je annotatie kon invoeren. Hier even een schetsje: 
+
+### Belangrijke bevindingen over toegankelijkheid (hoorcollege notes)
 
 #### Feiten
 - 1 op de 6 mensen heeft moeite met lezen
@@ -119,30 +121,30 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 
 ### Roger's inzichten uit test 2
 
-#### 🔠 Toegankelijkheid en Leesbaarheid
+#### Toegankelijkheid en Leesbaarheid
 - Invert-opties met linten werken verwarrend
 - Tekst vergroten heeft weinig effect
 - Outlines van tabs moeten duidelijker
 - Emojis op knoppen: wit op geel werkt niet (slecht contrast)
 
-#### 🧭 Navigatie en Interactie
+#### Navigatie en Interactie
 - Zijmenu met opties: enthousiast over
 - Via Tab naar annotaties kunnen navigeren
 - Per zin markeren is een grote wens
 
-#### 🗣️ Spraak en Voorlezen
+#### Spraak en Voorlezen
 - Knop om eigen annotaties te laten voorlezen gewenst
 - Invoer via spraak moet zichtbaar zijn, liefst per woord
 
-#### 📝 Annotaties en Markering
+#### Annotaties en Markering
 - Annotaties in aparte kleur
 - Markeren met border werkt beter dan highlight
 - Willekeurig bestaande annotaties kunnen toevoegen
 
-#### 👆 Tactiele Interactie
+#### Tactiele Interactie
 - F- en G-toetsen zijn voelbaar en helpen bij oriëntatie
 
-#### 🎨 Visuele Ondersteuning
+#### Visuele Ondersteuning
 - Visuele/abstracte illustraties helpen bij begrip
 
 ---
@@ -162,13 +164,14 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 ---
 
 ## Week 3 – Spraak & Annotatie-kleuren
+In week
 
 ### Planning
 - Spraakcommando’s laten werken
 - Kunnen selecteren hoeveel zinnen je markeert
 - Kleuren koppelen aan toetsen (R = rood, B = blauw, P = paars)
 
-### Voortgang gesprek Roger
+### Voortgang gesprek met Vasilis
 #### Annotatie & spraak
 - Shift-knop laat tekst voorlezen die je hebt getypt
 - Annotaties moeten aanpasbaar zijn
@@ -181,9 +184,10 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 - Sliders in opvallend geel
 - Contrast bij tekstinvoer verbeteren
 
-#### Focus-aanpak
+#### Voortgang gesprek met Vasilis
 - Niet alles tegelijk willen testen
 - Eerst focussen op 1 duidelijke feature
+- Bedenk en vraag wat Roger een fijne volgorde vind van annotaties maken
 
 ---
 
@@ -198,9 +202,6 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 
 #### Study situation
 Ook in deze fase stond de ervaring van Roger centraal. De verbeterde annotatiestructuur is gebaseerd op zijn feedback in eerdere tests, zoals de wens voor overzicht en controle.
-
-#### Ignore conventions
-In plaats van standaard UX-patronen te volgen, is gekozen voor een zijmenu, tabstructuur en categoriseerbare annotaties – aangepast op Roger’s voorkeuren in plaats van gangbare ontwerpstandaarden.
 
 #### Prioritise identity
 De keuzes in contrast, typografie en visuele ondersteuning sluiten aan bij Roger's persoonlijke voorkeuren en visuele behoeftes, wat zijn identiteit als gebruiker centraal stelt.
