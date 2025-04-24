@@ -70,7 +70,7 @@ Mijn testpersoon is Roger. Roger is 58 jaar oud en heeft maculadegeneratie, een 
 ---
 ## Week 2 – Toegankelijkheid & Test 2
 
-In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen ontwikkelen en bedacht. Ik heb er voor gekozen om een groot text vak te maken en daar naast wil ik dan een sidebar maken met annotaties. De grote vraag voor mij was, "hoe kan ik de annotaties makkelijk maken?" ik dacht er zelf aan om per zin een knopje toe te voegen zodat je daar op kunt klikken en doorgestuurd werd naar een type input waar je vervolgens je annotatie kon invoeren. Hier even een schetsje: 
+In week 2 ben ik verder gaan werken om het idee wat ik tijdens test 1 heb kunnen ontwikkelen en bedacht. Ik heb er voor gekozen om een groot text vak te maken en daar naast wil ik dan een sidebar maken met annotaties. De grote vraag voor mij was, "hoe kan ik de annotaties makkelijk maken?" ik dacht er zelf aan om per zin een knopje toe te voegen zodat je daar op kunt klikken en doorgestuurd werd naar een type input waar je vervolgens je annotatie kon invoeren. Hier even een schetsje: ![Alt-tekst](/readme-img/schets1.JPG)
 
 ### Belangrijke bevindingen over toegankelijkheid (hoorcollege notes)
 
