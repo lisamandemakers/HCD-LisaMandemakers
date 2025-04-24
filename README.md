@@ -295,14 +295,17 @@ De spraakfunctie werd gewaardeerd, maar er werd gevraagd om meer controle over d
 
 ### Reflectie op Exclusive Design principles
 
-#### Study situation
-Ook in deze fase stond de ervaring van Roger centraal. De verbeterde annotatiestructuur is gebaseerd op zijn feedback in eerdere tests, zoals de wens voor overzicht en controle.
+#### KeyBoard 
+In deze fase lag de focus op de ervaring van Roger, met bijzondere aandacht voor de interactie via het toetsenbord. De verbeterde annotatiestructuur en sneltoetsen zijn ontworpen op basis van zijn feedback, waarbij zijn behoefte aan efficiëntie en overzicht centraal stond. Door toetsenbordnavigatie mogelijk te maken, kan Roger sneller door de tekst en annotaties navigeren, wat zijn controle en gebruiksgemak vergroot.
 
 #### Prioritise identity
 De keuzes in contrast, typografie en visuele ondersteuning sluiten aan bij Roger's persoonlijke voorkeuren en visuele behoeftes, wat zijn identiteit als gebruiker centraal stelt.
 
 #### Add nonsense
 Dingen groter maken dan, dat je denkt dat nodig is
+
+#### Whitespace and clarity
+In deze fase is er extra aandacht besteed aan het gebruik van white space, zodat Roger zich niet overweldigd voelt door te veel visuele informatie. Door voldoende ruimte tussen elementen te creëren, krijgt de interface een ademende en overzichtelijke uitstraling.
 
 ### Wat ik zou doen met meer tijd
 Als ik nog extra tijd had om de applicatie verder uit te breiden, zou ik:
